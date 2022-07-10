@@ -11,6 +11,10 @@ body{
     background-image: url(../images/fondo-proyectos.png);
     background-size: cover;
 }
+#inicio{
+    background-image: url(../images/fondo-contacto.png);
+    background-size: cover;
+}
 h1{
     color: red;
 }
@@ -42,6 +46,17 @@ h1{
 .btn-rojo:hover{
     color: white;
     background-color: tomato;
+}
+.btn-rojo {
+    background-color: #E20000;
+    color: white;
+    font-weight: 100;
+    border-radius: 15px;
+}
+.btn {
+    color: #370a6d;
+    background-color: white;
+    border: none;
 }
 p{
     color: gray;
@@ -144,7 +159,78 @@ main{
 #inicio p{
     color: white;
 }
+.foto-de-perfil{
+    border-radius: 600px;
+    height: 300px;
+}
+.gris {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+      filter: grayscale(100%);
+}
+.gris:hover {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter:grayscale(0%);
+}
 
+#stark-tecnologico{
+    background-color: #ff4a49 ;
+}
+#stark-tecnologico h2{
+     font-size: 24px;
+     color: rgb(255, 253, 253);
+}
+#stark-tecnologico h3{
+    font-size: 20px;
+    color: black;
+    font-weight: 300px;
+}
+#stark-tecnologico .tecnologia{
+    font-size: 14px;
+    color: rgb(6, 6, 6);
+    text-align: center;
+    height: 182px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+#stark-tecnologico .tecnologia img{
+    height: 80px;
+}
+#experiencia h2{
+    font-size: 24px;
+    color: #370a6d;
+    font-weight: 400px;
+}
+#experiencia h3{
+    font-size: 24px;
+    color: #747179;
+    font-weight: 600px;
+}
+#experiencia h4{
+    font-size: 17px;
+    color: #370a6d;
+}
+.gris {
+    -webkit-filter: grayscale(100%);
+    filter:grayscale(100%);
+}
+.gris:hover{
+    -webkit-filter: grayscale(100%);
+    filter:grayscale(0%);
+}
+#estudio h2{
+    font-size: 24px;
+    color: #370a6d;
+    font-weight: 400px;
+}
+#estudio h3{
+    font-size: 24px;
+    color: #747179;
+    font-weight: 600px;
+}
+#estudio h4{
+    font-size: 17px;
+    color: #370a6d;
+}
 /* la qeris siempre al final */
 @media (max-width: 750px) {
     #contacto {
@@ -162,4 +248,18 @@ main{
         border: 1px #E20000 solid;
     }
 
+}
+
+.whatsapp {
+    background-color: #370a6d;
+    color: white;
+    width: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    padding: 8px 0 15px 0;
+    right: 80px;
+    position: fixed;
+    bottom: 0px;
 }
